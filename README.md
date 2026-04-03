@@ -1,6 +1,6 @@
 # Codex Desktop Cat Pet
 
-一个基于 `tkinter` 的桌宠应用：实时监听本地 Codex 线程状态，为每个线程生成一只小猫，并根据状态播放不同动画。
+基于 `tkinter` 的桌宠应用：实时监听本地 Codex 线程状态，为每个线程生成一只小猫，并根据状态播放不同动画。
 ![待机GIF](assets/pet/completed_gif.gif)
 ## 特性
 
