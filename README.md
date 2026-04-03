@@ -50,7 +50,6 @@
 - GIF：
   - `working_gif`, `completed_gif`, `done_gif`
 
-推荐使用项目内相对路径（便于 GitHub 展示与跨机器运行）：
 
 ```json
 "sprites": {
