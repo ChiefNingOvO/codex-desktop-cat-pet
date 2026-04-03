@@ -1,0 +1,64 @@
+{
+  "db_path": "C:/Users/Lenovo/.codex/state_5.sqlite",
+  "poll_interval_ms": 120,
+  "active_timeout_sec": 10,
+  "working_action_interval_sec": 12,
+  "rollout_tail_lines": 500,
+  "monitor_thread_count": 8,
+  "window": {
+    "x": 30,
+    "y": 30,
+    "offset_x": 40,
+    "offset_y": 30,
+    "always_on_top": true
+  },
+  "sprites": {
+    "transparent_key": "#000000",
+    "sprite_scale": 2,
+    "working_sheet": "C:/Users/Lenovo/Downloads/working.png",
+    "working_sheet_cols": 4,
+    "working_sheet_rows": 3,
+    "completed_sheet": "C:/Users/Lenovo/Downloads/completed.png",
+    "completed_sheet_cols": 4,
+    "completed_sheet_rows": 3,
+    "done_sheet": "C:/Users/Lenovo/Downloads/done.png",
+    "done_sheet_cols": 4,
+    "done_sheet_rows": 3,
+    "working_gif": "",
+    "completed_gif": "",
+    "done_gif": "",
+    "completed_subsample": 2,
+    "done_subsample": 2
+  },
+  "motion": {
+    "bottom_walk_enabled": true,
+    "walk_speed_px": 10,
+    "bottom_margin": 30,
+    "lane_count": 3,
+    "lane_height": 18,
+    "random_walk_enabled": true,
+    "turn_chance": 0.08,
+    "min_target_step": 80,
+    "max_target_step": 280,
+    "random_speed_enabled": true,
+    "cat_speed_min_px": 6,
+    "cat_speed_max_px": 14,
+    "done_hold_ticks": 18,
+    "default_opacity": 1.0
+  },
+  "actions": {
+    "on_working_enter": {
+      "beep": false,
+      "command": ""
+    },
+    "on_working_periodic": {
+      "beep": false,
+      "command": ""
+    },
+    "on_completed": {
+      "beep": true,
+      "command": ""
+    }
+  },
+  "_comment": "motion.turn_chance 越大转向越频繁；sprites.completed_subsample=2 表示 completed 宽高缩小为一半。"
+}
